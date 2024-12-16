@@ -1,15 +1,37 @@
+// // import React from "react";
+
+// // const App = () => {
+// //   return <div>App</div>;
+// // };
+
+// // export default App;
+
+// import React from "react";
+// import SampleHeader from "./layout/SampleHeader";
+// import Gal from "./Components/Gal";
+// import Ninput from "./Components/Ninput";
+// import Cal from "./ex/Cal";
+// import Detail from "./Components/Detail";
+
+// const App = () => {
+//   return (
+//     <>
+//       <SampleHeader />
+//       <main>
+//         <Gal />
+//         <Ninput />
+//         <Detail />
+//       </main>
+//     </>
+//   );
+// };
+
+// export default App;
+
 import React from "react";
-import Header from "./layout/Header";
-import Footer from "./layout/Footer";
 
 const App = () => {
-  return (
-    <div>
-      <Header />
-      <h1>App</h1>
-      <Footer />
-    </div>
-  );
+  return <div>App</div>;
 };
 
 export default App;

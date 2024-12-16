@@ -145,9 +145,28 @@ a {
   border: none;
   color: inherit;
   text-decoration: none;
+  background-color: transparent;
 }
 
 body {
   background-color: var(--gray9);
   color: var(--gray0);
+}
+
+div,
+section,
+article,
+button,
+a,
+footer,
+header {
+  display: flex;
+}
+
+div,
+section,
+article,
+footer,
+header {
+  flex-direction: column;
 }
