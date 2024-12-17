@@ -170,3 +170,7 @@ footer,
 header {
   flex-direction: column;
 }
+
+img {
+  width: 100%;
+}

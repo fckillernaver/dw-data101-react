@@ -1,0 +1,29 @@
+.re {
+  padding: 20px;
+  row-gap: 10px;
+}
+
+.re ul {
+  row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.re div {
+  border: 1px solid var(--gray7);
+  border-radius: 20px;
+  padding: 20px;
+  background-color: var(--gray8);
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.re div:hover {
+  background-color: var(--red7);
+}
+
+.re div svg {
+  font-size: 30px;
+}

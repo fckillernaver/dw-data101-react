@@ -6,32 +6,32 @@
 
 // // export default App;
 
-// import React from "react";
-// import SampleHeader from "./layout/SampleHeader";
-// import Gal from "./Components/Gal";
-// import Ninput from "./Components/Ninput";
-// import Cal from "./ex/Cal";
-// import Detail from "./Components/Detail";
-
-// const App = () => {
-//   return (
-//     <>
-//       <SampleHeader />
-//       <main>
-//         <Gal />
-//         <Ninput />
-//         <Detail />
-//       </main>
-//     </>
-//   );
-// };
-
-// export default App;
-
 import React from "react";
+import SampleHeader from "./layout/SampleHeader";
+import Gal from "./Components/Gal";
+import Ninput from "./Components/Ninput";
+import Detail from "./Components/Detail";
+import Poster from "./Components/Poster";
+import Reason from "./Components/Reason";
+import FAQ from "./Components/FAQ";
+import LB from "./Components/LB";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <SampleHeader />
+      <main>
+        <Gal />
+        <Ninput />
+        <Detail />
+        <Poster />
+        <Poster />
+        <Reason />
+        <FAQ />
+        <LB />
+      </main>
+    </>
+  );
 };
 
 export default App;
